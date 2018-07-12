@@ -1,0 +1,45 @@
+body.gallery {
+	background-color: white;
+	margin: 0;
+}
+.gallery-nav {
+    background-color: #FBC02D;
+    padding: 1px 48px;
+    position: sticky;
+    top: 0;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 180px;
+	grid-gap: 24px;
+	margin: auto;
+	padding: 16px;
+}
+.container a {
+	grid-column-end: span 6;
+	grid-row-end: span 2;
+}
+.container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (min-width: 465px) {
+	.container {
+		max-width: 1000px;
+	}
+	.container a {
+		grid-column-end: span 2;
+		grid-row-end: span 1;
+	}
+	.container .is-medium {
+		grid-column-end: span 3;
+		grid-row-end: span 2;
+	}
+	.container .is-big {
+		grid-column-end: span 6;
+		grid-row-end: span 2;
+	}
+}

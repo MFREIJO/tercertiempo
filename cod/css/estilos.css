@@ -1,0 +1,6 @@
+@import "../node-modules/normalize.css/normalize.css";
+@import "reset.css";
+@import "home.css";
+@import "board.css";
+@import "gallery.css";
+@import "pin.css";

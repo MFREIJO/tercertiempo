@@ -1,0 +1,96 @@
+body.home {
+	background-image: url(../img//fondo-home.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F6F6F6;
+	margin: 48px 10% 48px 10%;
+}
+
+.ini {
+	display: flex;
+	flex-direction: row;
+}
+.menu {
+	flex-basis: 25%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 48px;
+}
+.menu p{
+	color: white;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	margin: 0;
+
+}
+
+.menu-home {
+	background-color: #283ED0;
+	margin-bottom: 8px;
+	padding-top: 107px;
+}
+
+.menu-board {
+	background-color: #D32F2F;
+	margin-bottom: 8px;
+	padding-top: 131px;
+	text-decoration: none;
+}
+
+.menu-gallery {
+	background-color: #FBC02D;
+	margin-bottom: 8px;
+	padding-top: 235px;
+	text-decoration: none;
+}
+
+.pin {
+	flex-basis: 75%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 44px;
+}
+
+.pin div {
+	padding-top: 8px;
+	
+}
+.barra.is-pin{
+	background-color: #283ED0;
+}
+.barra.is-board{
+	background-color: #D32F2F;
+}
+.barra.is-gallery{
+	background-color: #FBC02D;
+}
+
+.pin-first {
+	background-color: white;
+	margin-bottom: 8px; 
+}
+
+.bloque-bottom {
+	display: flex;
+	flex-direction: row;
+}
+.pin-second {
+	background-color: white;
+	margin-right: 8px;
+	flex-basis: 70%
+}
+
+.bloque-right {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 30%
+}
+.pin-board {
+	background-color: white;
+	margin-bottom: 8px;
+}
+.pin-gallery {
+	background-color: white;	
+}

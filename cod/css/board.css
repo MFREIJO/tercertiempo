@@ -1,0 +1,47 @@
+body.board {
+	background-color: white;
+	margin: 0;
+}
+nav.board-nav {
+    background-color: #D32F2F;
+    padding: 1px 48px;
+    position: sticky;
+    top: 0;
+}
+
+article.board-article {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 48px;
+}
+
+ul.list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.list-suboard img {
+	display: block;
+	width: 220px;
+	height: 180px;
+	margin: 24px 24px 0px 24px;
+}
+
+.list-suboard p {
+	background-color: #D32F2F;
+	padding: 16px 48px 16px 48px;
+	margin: 0px 24px 24px 24px;
+	color: white;
+	text-align: center;
+}
+.list-gallery p {
+	background-color: #FBC02D;
+	width: 124px;
+	padding: 196px 48px 16px 48px;
+	margin: 24px;
+	color: white;
+	text-align: center;
+}

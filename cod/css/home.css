@@ -1,0 +1,26 @@
+body.home {
+	background-image: url(../img//fondo-home2.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F6F6F6;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 220px;
+	grid-template-areas: repeat(24, 24px);
+}
+
+.nav-home {
+	background-color: #283ED0;
+}
+
+.nav-board {
+	background-color: #D32F2F;
+}
+
+.nav-gallery {
+	background-color: #FBC02D;
+}
