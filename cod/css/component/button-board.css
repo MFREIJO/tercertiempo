@@ -1,0 +1,35 @@
+/*******************************************
+ Contiene
+	- Image
+	- Borde inferior de color rojo con opacidad
+	- Título
+*******************************************/
+.button-board {
+	text-decoration: none;
+	display: block;
+	background-color: #D32F2F;
+}
+
+.button-board-img {
+	margin: 0;
+}
+.button-board-img img{
+	opacity: 0.5;
+	max-width: 100%;
+	display: block;
+}
+.button-board:hover img{
+	opacity: 1;
+}
+.button-board-header {
+	padding: 16px;
+}
+
+.button-board-header h2 {
+	font-weight: bold;
+	font-size: 0.875rem; /* 14px */
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: center;
+}

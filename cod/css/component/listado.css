@@ -1,0 +1,27 @@
+.listado {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/************************************
+.listado >li
+se aplican sólo a los "li" que están inmediantamente a continuación del "listado".
+No se aplicacarían a otros "lis" si hubiese
+*************************************/
+
+.listado > li{
+	border-top-color: #CCCCCC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding: 16px 0;
+}
+
+.listado > li:first-child{
+	border-top: none;
+	padding-top: 0;
+}
+
+.listado >li:last-child{
+	padding-bottom: 0;
+}

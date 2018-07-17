@@ -1,0 +1,17 @@
+/********************************************/
+/* Panel: card blanco con barra de color 	*/
+/********************************************/
+
+.panel {
+	border-top-color: #283ED0;
+	border-top-style: solid;
+	border-top-width: 6px;
+	background-color: white;
+	padding: 48px;
+}
+.panel.is-gallery {
+	border-top-color: #FBC02D;
+}
+.panel.is-board {
+	border-top-color: #D32F2F;
+}

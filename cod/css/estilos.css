@@ -1,6 +1,12 @@
 @import "../node-modules/normalize.css/normalize.css";
 @import "reset.css";
-@import "home.css";
-@import "board.css";
+@import "pages/home.css";
+@import "component/panel.css";
+@import "component/pin.css";
+@import "component/listado.css";
+@import "component/button-pin.css";
+@import "component/button-board.css";
+@import "component/button-gallery.css";
+@import "board2.css";
 @import "gallery.css";
-@import "pin.css";
+@import "pin2.css";

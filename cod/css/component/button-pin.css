@@ -1,0 +1,30 @@
+.button-pin {
+	background-color: #283ED0;
+	display: block;
+	text-decoration: none;
+}
+
+.button-pin-img {
+	margin: 0;
+}
+
+.button-pin-img img {
+	opacity: 0.5;
+	max-width: 100%;
+	display: block;
+}
+.button-pin-img img:hover {
+	opacity: 1;
+}
+.button-pin-header {
+	padding: 16px;
+}
+
+.button-pin-header h2 {
+	font-weight: bold;
+	font-size: 0.875rem; /* 14px */
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: center;
+}

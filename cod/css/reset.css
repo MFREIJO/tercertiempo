@@ -38,9 +38,10 @@ p {
 	*/
 }
 
-p.buttom {
+.buttom {
 	font-weight: bold;
 	font-size: 0.875rem; /* 14px */
 	color: #283ED0;
+	text-transform: uppercase;
 	/* 	margin: 16px 0px; */
 }

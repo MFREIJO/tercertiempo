@@ -1,0 +1,89 @@
+/*******************************************
+ Contiene
+	- Header
+		Title
+		Subtitle (opcional)
+	- Imagen
+	- Descripción
+	- Footer (opcional)
+*******************************************/
+.pin-header {
+	grid-area: header;
+}
+.pin-title {
+	font-weight: bold;
+	font-size: 2.25rem;
+	margin: 0;
+}
+.pin-subtitle {
+	font-weight:  normal;
+	font-size: 1.5rem;
+	margin: 0;
+}
+.pin-img {
+	grid-area: img;
+	margin: 0;
+}
+.pin-img img{
+	display: block;
+	border-radius: 20px;
+	max-width: 100%;
+}
+.pin-description {
+	grid-area: description;
+}
+.pin-footer {
+	grid-area: footer;
+	text-align: right;
+}
+
+/********************************************
+	Destacado
+	- Título
+	- Subtítulo			- Imagen
+	- Descripción				
+						- Botón			 	
+/********************************************/
+.pin.is-destacado {
+	display: grid;
+	grid-template-columns: 1fr 192px;
+	grid-template-rows: auto auto auto;
+	grid-template-areas: 	"header 		img" 
+							"description 	description"
+							"footer 		footer";
+}
+
+.pin.is-destacado .pin-header {
+	align-self: end; /*flex-end*/
+}
+
+/********************************************
+	Listado
+	- Imagen 			- Título
+						- Descripción		 	
+/********************************************/
+.pin.is-list {
+	display: grid;
+	grid-template-columns: 90px 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:	"img 	header"
+							"img 	description";
+	grid-column-gap: 24px;
+}
+.pin.is-list .pin-header {
+	align-self: end;
+}
+.pin.is-list .pin-title{
+	font-weight: bold;
+	font-size: 1.125rem; /* 18px */	
+	margin: 0;
+}
+.pin.is-list .pin-description p{
+	margin: 0;
+}
+
+
+
+
+
+

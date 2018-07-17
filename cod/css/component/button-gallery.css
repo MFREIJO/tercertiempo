@@ -1,0 +1,30 @@
+.button-gallery {
+	background-color: #FBC02D;
+	display: block;
+	text-decoration: none;
+}
+
+.button-gallery-img {
+	margin: 0;
+}
+
+.button-gallery-img img {
+	opacity: 0.5;
+	max-width: 100%;
+	display: block;
+}
+.button-gallery-img img:hover {
+	opacity: 1;
+}
+.button-gallery-header {
+	padding: 16px;
+}
+
+.button-gallery-header h2 {
+	font-weight: bold;
+	font-size: 0.875rem; /* 14px */
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: center;
+}
