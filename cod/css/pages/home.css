@@ -1,23 +1,8 @@
 body.home {
-	background-image: url(../img//fondo-home.png);
-	height: 100vh;
+	background-image: url(../../img//fondo-home.png);
+	min-height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #F6F6F6;
-}
-
-.ly {
-	display: grid;
-	grid-template-columns: 296px 1fr;
-	grid-template-rows: auto;
-	grid-gap: 48px;
-	max-width: 1000px;
-}
-
-.ly-nav {
-	display: grid;
-	grid-template-columns: 296px;
-	grid-template-rows: repeat (3 1fr);
-	grid-gap: 8px;
 }

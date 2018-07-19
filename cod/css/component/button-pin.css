@@ -10,12 +10,21 @@
 
 .button-pin-img img {
 	opacity: 0.5;
-	max-width: 100%;
+	width: 100%;
 	display: block;
+	max-height: 25vh; /* Que ocupe el 25 así nos aseguramos que se vean los 3 botones*/
+	object-fit: cover; /* Para que no se deforme la imagen */
 }
+.button-pin-img.is-nolink img {
+	opacity: 1;
+}
+
 .button-pin-img img:hover {
 	opacity: 1;
 }
+
+
+
 .button-pin-header {
 	padding: 16px;
 }

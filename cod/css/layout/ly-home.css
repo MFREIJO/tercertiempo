@@ -1,0 +1,70 @@
+body.home {
+	background-image: url(../../img//fondo-home.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F6F6F6;
+}
+
+.ly-home {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	max-width: 1000px;
+	margin: auto;
+	padding: 16px;
+	grid-gap: 48px;
+}
+
+.ly-home-nav {
+	display: grid;
+	grid-template-columns: auto; /* Coge los 296px definidos en el ly anterior*/
+	/* No necesito definir filas pondrá tantas filas como elementos añada */
+	grid-row-gap: 8px;
+	align-content: start;
+}
+
+
+.ly-home-destacado {
+	grid-area: destacado;
+}
+.ly-home-list {
+	grid-area: listado;
+}
+
+.ly-nav2 {
+	display: grid;
+	grid-gap: 8px;
+	grid-area: nav;
+	
+}
+.ly-home-info {
+	display: grid;
+		grid-template-columns: auto;
+	align-content: start; /*Alineado contendio hacia arriba sino coge por defecto strech*/
+	grid-template-areas: 	"destacado"
+							"listado"
+							"nav";
+	grid-gap: 8px;
+}
+
+@media (min-width: 1032px) {
+	.ly-home {
+		padding-top: 48px;
+	}
+
+	.ly-home-info {
+		grid-template-columns: 1fr 192px;
+		grid-template-areas: 	"destacado	destacado"
+								"listado	nav";
+	}
+}
+
+@media (min-width: 800px) { 
+	.ly-home {
+		grid-template-columns: 296px 1fr;
+
+	}
+}
+
